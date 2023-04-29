@@ -2,27 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  /* --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255; */
-}
+@layer base {
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    /* --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0; */
+  :root[data-theme='light'] {
+    --color-primary: #313b44;
+    --color-secondary: #2962ff;
+    --color-surface: #d3dadf;
+    --color-error: #b91c1c;
+    
+    /*--color-success: 0 200 81;
+    --color-info: 51 181 229;
+    --color-warn: 255 187 51;*/
   }
-}
 
-body {
-  /* color: rgb(var(--foreground-rgb)); */
-  /* background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb)); */
-  font-family: 'Quicksand', sans-serif;
+  :root[data-theme="dark"] {
+    --color-primary: #90a4ae;
+    --color-secondary: #6fffe9;
+    --color-surface: #0a192f;
+    --color-error: #ef4444;
+  }
 }
