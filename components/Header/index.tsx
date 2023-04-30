@@ -1,4 +1,4 @@
-import SwitchThemeColor from "@/components/Switch"
+import SwitchThemeColor from "../Button/Switch"
 import Navigation from "@/components/Navigation"
 
 const Header = () => {

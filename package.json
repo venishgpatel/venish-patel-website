@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@fontsource/quicksand": "^4.5.12",
+    "@headlessui/react": "^1.7.14",
     "@phosphor-icons/react": "^2.0.9",
     "@types/node": "18.15.11",
     "@types/react": "18.0.35",
