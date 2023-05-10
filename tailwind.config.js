@@ -12,21 +12,21 @@ module.exports = {
       'desktop': '1280px'
     },
     colors: {
-      primary: {
+      'primary': {
         DEFAULT: 'var(--color-primary)',
         variant: '',
         disabled: ''
       },
-      secondary: {
+      'secondary': {
         DEFAULT: 'var(--color-secondary)',
         variant: '',
         disabled: ''
       },
-      surface: 'var(--color-surface)',
-      interactive: 'var(--color-interactive)',
-      error: 'var(--color-error)',
-      black: "#000000",
-      white: "#ffffff,"
+      'surface': 'var(--color-surface)',
+      'interactive': 'var(--color-interactive)',
+      'error': 'var(--color-error)',
+      'black': "#000000",
+      'white': "#ffffff,"
     },
     fontFamily: {
       'quicksand': ['QuickSand', 'sans-serif']

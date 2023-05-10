@@ -4,7 +4,7 @@
 
 @layer base {
 
-  :root[data-theme='light'] {
+  :root, :root[data-theme='light'] {
     --color-primary: #313b44;
     --color-secondary: #2962ff;
     --color-surface: #d3dadf;
