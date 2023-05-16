@@ -3,8 +3,8 @@ import Navigation from "@/components/Navigation"
 
 const Header = () => {
   return (
-    <header className="cmp-header flex">
-      <div className="logo">WANICE</div>
+    <header className="cmp-header container flex mt-6">
+      <div className="cmp-header__logo font-bold text-3xl">WANICE</div>
       <Navigation></Navigation>
       <SwitchThemeColor />
     </header>

@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer>Footer</footer>
+    <footer className='container text-center mb-6 text-xs'>Designed and built by VENISH PATEL</footer>
   )
 }
 

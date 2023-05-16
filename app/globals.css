@@ -18,7 +18,7 @@
   :root[data-theme="dark"] {
     --color-primary: #90a4ae;
     --color-secondary: #6fffe9;
-    --color-surface: #0a192f;
+    --color-surface: #0f172a;
     --color-error: #ef4444;
   }
 }
