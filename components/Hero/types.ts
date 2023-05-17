@@ -1,4 +1,4 @@
-export interface HeroProps extends HeroIndexProps {
+export interface HeroProps {
   variant: string;
   title?: string;
   subTitle?: string;
