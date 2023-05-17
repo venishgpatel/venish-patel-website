@@ -3,11 +3,11 @@
 import { useCallback, useEffect } from 'react';
 import { toast, ToastContainer } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
-import { NotificationProps } from "./types"
+import { NotificationProps, NotificationContent, NotificationOptions } from "./types"
 
 const Notification = ({ content, options }: NotificationProps) => {
 
-  const notify = useCallback(() => {
+  const notify = useCallback((content: NotificationContent<{}>, options: NotificationOptions | undefined) => {
     if (!content) return null
 
     switch (options?.type) {
@@ -27,11 +27,11 @@ const Notification = ({ content, options }: NotificationProps) => {
       default:
         toast(content, options)
     }
-  }, [content, options])
+  }, [])
 
   useEffect(() => {
-    notify()
-  }, [content, options])
+    notify(content, options)
+  }, [notify, content, options])
   
   return (
     <ToastContainer position='bottom-center' className={'text-base'} />
