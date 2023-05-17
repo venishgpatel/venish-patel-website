@@ -2,7 +2,9 @@
 
 import { ThemeProvider as ColorThemeProvider } from "next-themes"
 
-const Provider = ({ children }) => {
+const Provider = ({ children }: {
+  children: React.ReactNode
+}) => {
   return (
     <ColorThemeProvider>
       {children}
