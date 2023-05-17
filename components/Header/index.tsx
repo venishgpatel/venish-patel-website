@@ -1,4 +1,4 @@
-import SwitchThemeColor from "../Button/Switch"
+import SwitchColorTheme from "../Button/Switch"
 import Navigation from "@/components/Navigation"
 
 const Header = () => {
@@ -6,7 +6,7 @@ const Header = () => {
     <header className="cmp-header container flex mt-6">
       <div className="cmp-header__logo font-bold text-3xl">WANICE</div>
       <Navigation></Navigation>
-      <SwitchThemeColor />
+      <SwitchColorTheme />
     </header>
   )
 }
