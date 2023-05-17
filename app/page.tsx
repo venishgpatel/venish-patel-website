@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Notification
-        content="Site under maintenance, sorry for the inconvenience."
+        content="Site revamp in progress. I'll be back shortly with exciting new updates!"
         options={{
           type: 'warning'
         }}
