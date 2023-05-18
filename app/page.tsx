@@ -9,7 +9,8 @@ export default function Home() {
       <Notification
         content="Site revamp in progress. I'll be back shortly with exciting new updates!"
         options={{
-          type: 'warning'
+          type: 'warning',
+          toastId: 'revamp-message'
         }}
       />
       <Header></Header>
