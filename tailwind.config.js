@@ -12,12 +12,19 @@ module.exports = {
         variant: '',
         disabled: ''
       },
+      'primary-opposite': {
+        DEFAULT: 'var(--color-primary-opposite)',
+      },
       'secondary': {
         DEFAULT: 'var(--color-secondary)',
         variant: '',
         disabled: ''
       },
+      'secondary-opposite': {
+        DEFAULT: 'var(--color-secondary-opposite)',
+      },
       'surface': 'var(--color-surface)',
+      'surface-opposite': 'var(--color-surface-opposite)',
       'interactive': 'var(--color-interactive)',
       'error': 'var(--color-error)',
       'black': "#000000",

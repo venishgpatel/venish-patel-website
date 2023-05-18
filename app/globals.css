@@ -3,23 +3,41 @@
 @tailwind utilities;
 
 @layer base {
-
-  :root, :root[data-theme='light'] {
-    --color-primary: #313b44;
-    --color-secondary: #2962ff;
-    --color-surface: #d3dadf;
-    --color-error: #b91c1c;
-    
+  :root {
+    --color-theme-light-primary: #313b44;
+    --color-theme-light-secondary: #2962ff;
+    --color-theme-light-surface: #d3dadf;
+    --color-theme-light-error: #b91c1c;
+    --color-theme-dark-primary: #90a4ae;
+    --color-theme-dark-secondary: #6fffe9;
+    --color-theme-dark-surface: #0f172a;
+    --color-theme-dark-error: #ef4444;
+  }
+  :root[data-theme='light'] {
+    --color-primary: var(--color-theme-light-primary);
+    --color-secondary: var(--color-theme-light-secondary);
+    --color-surface: var(--color-theme-light-surface);
+    --color-error: var(--color-theme-light-error);
+    --color-primary-opposite: var(--color-theme-dark-primary);
+    --color-secondary-opposite: var(--color-theme-dark-secondary);
+    --color-surface-opposite: var(--color-theme-dark-surface);
+    /* --toastify-color-dark: #0f172a;
+    --toastify-text-color-dark: #90a4ae; */
     /*--color-success: 0 200 81;
     --color-info: 51 181 229;
     --color-warn: 255 187 51;*/
   }
 
   :root[data-theme="dark"] {
-    --color-primary: #90a4ae;
-    --color-secondary: #6fffe9;
-    --color-surface: #0f172a;
-    --color-error: #ef4444;
+    --color-primary: var(--color-theme-dark-primary);
+    --color-secondary: var(--color-theme-dark-secondary);
+    --color-surface: var(--color-theme-dark-surface);
+    --color-error: var(--color-theme-dark-error);
+    --color-primary-opposite: var(--color-theme-light-primary);
+    --color-secondary-opposite: var(--color-theme-light-secondary);
+    --color-surface-opposite: var(--color-theme-light-surface);
+    /* --toastify-color-light: #d3dadf;
+    --toastify-text-color-light: #313b44; */
   }
 }
 
