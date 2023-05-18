@@ -22,3 +22,9 @@
     --color-error: #ef4444;
   }
 }
+
+@layer components {
+  .link {
+    @apply hover:text-secondary transition-colors duration-500;
+  }
+}
