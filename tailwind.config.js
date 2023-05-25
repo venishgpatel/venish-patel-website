@@ -33,8 +33,14 @@ module.exports = {
       'surface-opposite': 'var(--color-surface-opposite)',
       'interactive': 'var(--color-interactive)',
       'error': 'var(--color-error)',
+      'neutral': {
+        DEFAULT: 'var(--color-neutral)',
+        20: 'color-mix(in srgb, var(--color-neutral), transparent 20%);',
+        40: 'color-mix(in srgb, var(--color-neutral), transparent 40%);',
+        80: 'color-mix(in srgb, var(--color-neutral), transparent 80%);',
+      }, 
       'black': "#000000",
-      'white': "#ffffff,"
+      'white': "#ffffff"
     },
     container: {
       center: true,

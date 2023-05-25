@@ -21,6 +21,7 @@
     --color-primary-opposite: var(--color-theme-dark-primary);
     --color-secondary-opposite: var(--color-theme-dark-secondary);
     --color-surface-opposite: var(--color-theme-dark-surface);
+    --color-neutral: #000000;
     /* --toastify-color-dark: #0f172a;
     --toastify-text-color-dark: #90a4ae; */
     /*--color-success: 0 200 81;
@@ -36,6 +37,7 @@
     --color-primary-opposite: var(--color-theme-light-primary);
     --color-secondary-opposite: var(--color-theme-light-secondary);
     --color-surface-opposite: var(--color-theme-light-surface);
+    --color-neutral: #ffffff;
     /* --toastify-color-light: #d3dadf;
     --toastify-text-color-light: #313b44; */
   }
