@@ -14,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className='font-quicksand bg-surface text-primary antialiased'>
-      <body className='text-base leading-6 laptop:text-xl laptop:leading-8 font-medium'>
+      <body className='text-base leading-5 laptop:leading-6 font-medium'>
         <Provider>
           {children}
         </Provider>
