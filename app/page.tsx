@@ -24,11 +24,11 @@ export default function Home() {
         />
         <section className='container'>
           <h2 className='text-4xl font-bold text-neutral-20 mb-10'>
-            Where I've worked
+            Where I&rsquo;ve worked
           </h2>
           <div className='flex flex-col gap-16 desktop:gap-8'>
-            {jobs.map((job) => (
-              <Job {...job}  />
+            {jobs.map((job, index) => (
+              <Job {...job} key={index} />
             ))}
           </div>
         </section>

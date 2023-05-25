@@ -11,8 +11,11 @@ const Job = ({ period, title, link, description, tags }) => {
           </Link>
         </div>
         <div className='whitespace-pre-wrap'>{description}</div>
-        <div className='flex gap-3 flex-wrap'>{tags.map((tag: string) => (
-          <div className='text-sm py-1 px-3 rounded-full bg-primary-80 text-primary whitespace-nowrap'>
+        <div className='flex gap-3 flex-wrap'>{tags.map((tag: string, index) => (
+          <div
+            key={index}
+            className='text-sm py-1 px-3 rounded-full bg-primary-80 text-primary whitespace-nowrap'
+          >
             {tag}
           </div>
         ))}</div>

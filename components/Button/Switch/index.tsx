@@ -9,7 +9,7 @@ const SwitchColorTheme = () => {
 
   const isDarkTheme = useMemo(() => {
     return resolvedTheme === 'dark'
-  }, [resolvedTheme, mounted])
+  }, [resolvedTheme])
 
   useEffect(() => {
     setMounted(true)
