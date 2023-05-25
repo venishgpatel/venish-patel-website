@@ -1,11 +1,11 @@
-import { HeroProps } from "./types"
-import Default from "./Default"
+import { HeroProps } from './types'
+import Default from './Default'
 
 const Hero = (props: HeroProps) => {
-  let HeroMarkup;
+  let HeroMarkup
 
   switch (props.variant) {
-    case "introHomePage":
+    case 'introHomePage':
       HeroMarkup = Default
       break
     default:

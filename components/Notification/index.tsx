@@ -1,10 +1,10 @@
 'use client'
 
-import { useCallback, useEffect } from 'react';
-import { useTheme } from "next-themes"
-import { toast, ToastContainer } from 'react-toastify';
-import "react-toastify/dist/ReactToastify.css";
-import { NotificationProps, NotificationContent, NotificationOptions } from "./types"
+import { useCallback, useEffect } from 'react'
+import { useTheme } from 'next-themes'
+import { toast, ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
+import { NotificationProps, NotificationContent, NotificationOptions } from './types'
 
 const Notification = ({ content, options }: NotificationProps) => {
   const { resolvedTheme } = useTheme()
@@ -13,19 +13,19 @@ const Notification = ({ content, options }: NotificationProps) => {
     if (!content) return null
 
     switch (options?.type) {
-      case "warning":
+      case 'warning':
         toast.warn(content, options)
         break
-      case "success":
+      case 'success':
         toast.success(content, options)
         break
-      case "error":
+      case 'error':
         toast.error(content, options)
         break
-      case "info":
+      case 'info':
         toast.success(content, options)
         break
-      case "default":
+      case 'default':
       default:
         toast(content, options)
     }

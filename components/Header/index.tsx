@@ -1,6 +1,6 @@
-import Link from "next/link"
-import SwitchColorTheme from "../Button/Switch"
-import Navigation from "@/components/Navigation"
+import Link from 'next/link'
+import SwitchColorTheme from '../Button/Switch'
+import Navigation from '@/components/Navigation'
 
 const Header = () => {
   return (

@@ -1,7 +1,7 @@
-"use client"
-import { Switch } from "@headlessui/react"
-import { useTheme } from "next-themes"
-import { useEffect, useMemo, useState } from "react"
+'use client'
+import { Switch } from '@headlessui/react'
+import { useTheme } from 'next-themes'
+import { useEffect, useMemo, useState } from 'react'
 
 const SwitchColorTheme = () => {
   const [mounted, setMounted] = useState(false)

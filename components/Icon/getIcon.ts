@@ -1,11 +1,11 @@
-import { Moon, Sun } from "@phosphor-icons/react"
-import { PhospherIconComp } from "./types"
+import { Moon, Sun } from '@phosphor-icons/react'
+import { PhospherIconComp } from './types'
 
 const getIcon = (iconName: string): PhospherIconComp | null => {
   switch (iconName) {
-    case "moon":
+    case 'moon':
       return Moon
-    case "sun":
+    case 'sun':
       return Sun
     default:
       return null

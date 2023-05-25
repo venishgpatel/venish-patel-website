@@ -1,6 +1,6 @@
 'use client'
 
-import { ThemeProvider as ColorThemeProvider } from "next-themes"
+import { ThemeProvider as ColorThemeProvider } from 'next-themes'
 
 const Provider = ({ children }: {
   children: React.ReactNode

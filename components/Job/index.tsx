@@ -1,5 +1,5 @@
-import Link from "next/link"
-import { JobProps } from "./types"
+import Link from 'next/link'
+import { JobProps } from './types'
 
 const Job = ({ period, title, link, description, tags }: JobProps) => {
   return (

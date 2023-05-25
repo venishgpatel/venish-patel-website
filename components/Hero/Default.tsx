@@ -1,4 +1,4 @@
-import { HeroProps } from "./types"
+import { HeroProps } from './types'
 
 const Default = ({ variant, title, subTitle, description }: HeroProps) => {
   return (

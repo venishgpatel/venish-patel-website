@@ -1,5 +1,5 @@
-import getIcon from "./getIcon"
-import { IconProps, PhospherIconComp } from "./types"
+import getIcon from './getIcon'
+import { IconProps, PhospherIconComp } from './types'
 
 const Icon = ({ name, ...props}: IconProps): JSX.Element | null => {
   if (!name) return null

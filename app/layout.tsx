@@ -1,6 +1,6 @@
 import Provider from '@/components/Provider'
 import './globals.css'
-import "@fontsource/quicksand"
+import '@fontsource/quicksand'
 
 export const metadata = {
   title: 'Venish Patel | Programmer & Designer',

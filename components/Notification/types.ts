@@ -1,4 +1,4 @@
-import type { ToastContent, ToastOptions } from "react-toastify"
+import type { ToastContent, ToastOptions } from 'react-toastify'
 
 export interface NotificationProps {
   content: ToastContent<{}>;
@@ -8,4 +8,4 @@ export interface NotificationProps {
 export type {
   ToastContent as NotificationContent,
   ToastOptions as NotificationOptions
-} from "react-toastify"
+} from 'react-toastify'
