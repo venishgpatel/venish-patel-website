@@ -4,7 +4,7 @@ import { JobProps } from './types'
 const Job = ({ period, title, link, description, tags }: JobProps) => {
   return (
     <section className='flex flex-col laptop:flex-row gap-3'>
-      <div className="laptop:basis-2/12 text-sm font-semibold laptop:my-1">{period}</div>
+      <div className="laptop:basis-3/12 desktop:basis-2/12 text-sm font-semibold laptop:my-1">{period}</div>
       <div className='laptop:basis-10/12 flex flex-col gap-3'>
         <div className='link font-bold text-lg'>
           <Link href={link} target='_blank'>
