@@ -1,6 +1,7 @@
 import Link from "next/link"
+import { JobProps } from "./types"
 
-const Job = ({ period, title, link, description, tags }) => {
+const Job = ({ period, title, link, description, tags }: JobProps) => {
   return (
     <section className='flex flex-col laptop:flex-row gap-3'>
       <div className="laptop:basis-2/12 text-sm font-semibold laptop:my-1">{period}</div>
