@@ -43,6 +43,10 @@
 
 @layer components {
   .link {
-    @apply hover:text-secondary transition-colors duration-500;
+    @apply text-secondary-20 hover:text-secondary transition-colors duration-500;
+  }
+
+  .container {
+    @apply tablet:max-w-[600px] laptop:max-w-[800px] desktop:max-w-[1000px];
   }
 }

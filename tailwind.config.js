@@ -9,6 +9,9 @@ module.exports = {
     colors: {
       'primary': {
         DEFAULT: 'var(--color-primary)',
+        20: 'color-mix(in srgb, var(--color-primary), transparent 20%);',
+        40: 'color-mix(in srgb, var(--color-primary), transparent 40%);',
+        80: 'color-mix(in srgb, var(--color-primary), transparent 80%);',
         variant: '',
         disabled: ''
       },
@@ -17,6 +20,9 @@ module.exports = {
       },
       'secondary': {
         DEFAULT: 'var(--color-secondary)',
+        20: 'color-mix(in srgb, var(--color-secondary), transparent 20%);',
+        40: 'color-mix(in srgb, var(--color-secondary), transparent 40%);',
+        80: 'color-mix(in srgb, var(--color-secondary), transparent 80%);',
         variant: '',
         disabled: ''
       },
@@ -38,11 +44,6 @@ module.exports = {
         'laptop': '1.5rem',
         'desktop': '2.0rem'
       },
-      screens: {
-        'tablet': '640px',
-        'laptop': '992px',
-        'desktop': '1280px'
-      }
     },
     fontFamily: {
       'quicksand': ['QuickSand', 'sans-serif']
