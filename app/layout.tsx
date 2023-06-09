@@ -1,10 +1,18 @@
+import { Metadata } from 'next'
 import Provider from '@/components/Provider'
 import './globals.css'
 import '@fontsource/quicksand'
 
-export const metadata = {
-  title: 'Venish Patel | Programmer & Designer',
-  description: 'Venish Patel',
+export const metadata: Metadata = {
+  title: {
+    default: 'Venish Patel',
+    template: '%s | Venish Patel'
+  },
+  description: 'Venish Patel | FullStack Developer',
+  keywords: ['Next.js', 'React', 'JavaScript', 'Venish', 'FullStack', 'Venish Patel'],
+  authors: [{ name: 'Venish Patel', url: 'https://www.venishpatel.com/' }],
+  category: 'portfolio',
+  generator: 'Next.js',
 }
 
 export default function RootLayout({
