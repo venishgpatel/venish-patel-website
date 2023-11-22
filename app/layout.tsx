@@ -15,11 +15,7 @@ export const metadata: Metadata = {
   generator: 'Next.js',
 }
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang="en" className='font-quicksand bg-surface text-primary antialiased'>
       <body className='text-base leading-5 laptop:leading-6 font-medium'>
@@ -30,3 +26,5 @@ export default function RootLayout({
     </html>
   )
 }
+
+export default RootLayout;
