@@ -5,7 +5,7 @@ import Notification from '@/components/Notification'
 import Job from '@/components/Job'
 import jobs from '@/data/jobs'
 
-export default function Home() {
+const Home = () => {
   return (
     <>
       <Notification
@@ -37,3 +37,5 @@ export default function Home() {
     </>
   )
 }
+
+export default Home;
